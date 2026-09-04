@@ -1,7 +1,6 @@
 # Classroom Management System (CRMS)
 
-A web-based classroom and room management system for Bangladesh Agricultural University,
-built for the System & Software Engineering laboratory course.
+A web-based classroom and room management system for Bangladesh Agricultural University.
 
 The system replaces manual, notice-board-based room allocation with a centralised
 platform where teachers, class representatives (CRs) and administrators can view
