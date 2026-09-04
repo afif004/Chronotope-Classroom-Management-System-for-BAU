@@ -1,0 +1,36 @@
+# ── Local configuration & secrets ────────────────────────────────
+db_config.php
+.env
+*.env
+
+# ── Logs ─────────────────────────────────────────────────────────
+error_log
+*.log
+logs/
+
+# ── Backup archives (do not commit) ──────────────────────────────
+*.zip
+*.tar
+*.tar.gz
+*.bak
+*.sql.bak
+
+# ── Superseded / scratch files ───────────────────────────────────
+*1.php
+test_*.php
+
+# ── Dependencies ─────────────────────────────────────────────────
+vendor/
+composer.lock
+node_modules/
+
+# ── Editor & OS noise ────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ── User uploads at runtime ──────────────────────────────────────
+uploads/
+tmp/
