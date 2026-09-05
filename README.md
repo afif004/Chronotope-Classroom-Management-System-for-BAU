@@ -1,7 +1,6 @@
 # Classroom Management System (CRMS)
 
-A web-based classroom and room management system for Bangladesh Agricultural University,
-built for the System & Software Engineering laboratory course.
+A web-based classroom and room management system for Bangladesh Agricultural University.
 
 The system replaces manual, notice-board-based room allocation with a centralised
 platform where teachers, class representatives (CRs) and administrators can view
@@ -124,8 +123,7 @@ Add the following to crontab for automated reminders and cleanup:
 ## Configuration
 
 `db_config.php` holds all environment-specific settings and is **excluded from
-version control**. Never commit real credentials — copy `db_config.example.php`
-and fill it in locally.
+version control**. 
 
 ---
 
@@ -139,15 +137,8 @@ and fill it in locally.
 
 ---
 
-## Course
-
-Developed for the System & Software Engineering laboratory course,
-Department of Bioinformatics Engineering, Bangladesh Agricultural University.
-
----
-
 ## License
 
-This project was developed for Bangladesh Agricultural University coursework and
+This project was developed for Bangladesh Agricultural University's
 internal use. It is not licensed for public use, redistribution or modification.
 All rights reserved by the authors.
